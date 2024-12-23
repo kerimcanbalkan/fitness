@@ -1,16 +1,18 @@
 ---
 import {Icon} from 'astro-icon/components'
+import HamburgerMenu from './HamburgerMenu.jsx'
 ---
 
-<header class="fixed top-0 left-0 w-full z-10">
+<header class="absolute top-0 left-0 w-full z-10">
     <nav class="w-full flex justify-between items-center py-8 px-20 text-black">
-        <div class="text-3xl text-magenta"><a href="/">Logo</a></div>
-        <ul class="flex justify-evenly text-lg">
+        <div class="text-3xl text-magenta font-bold"><a href="/">Logo</a></div>
+        <ul class="justify-evenly text-lg hidden md:flex">
             <li class="px-5 filter drop-shadow-sm "></li>
             <li class="px-5 drop-shadow-sm hover:text-magenta"><a href="/">Home</a></li>
             <li class="px-5 drop-shadow-sm hover:text-magenta"><a href="#About">About</a></li>
             <li class="px-5 drop-shadow-sm hover:text-magenta"><a href="#Contact">Contact</a></li>
             <li class="px-5 drop-shadow-sm text-magenta hover:text-red flex align-center items-center"><a href="#User"><Icon name="mdi:account" class="text-2xl"/></a></li>
         </ul>
+	<HamburgerMenu client:load/>
     </nav>
 </header>

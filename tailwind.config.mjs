@@ -7,7 +7,8 @@ export default {
 				'hero': "url('./src/assets/hero.jpg')"
 			},
 			colors: {
-				'white': "#d5ccba",
+				//'white': "#d5ccba",
+				'white': "#dfded9",
 				'cyan': "#989a9c",
 				'magenta': "#97522c",
 				'blue': "#426a79",
@@ -18,5 +19,10 @@ export default {
 			}
 		},
 	},
-	plugins: [],
+	plugins: [
+		require('daisyui'),
+	],
+	daisyui: {
+		darkTheme: false,
+	}
 }

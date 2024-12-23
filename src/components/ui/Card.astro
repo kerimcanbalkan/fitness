@@ -1,0 +1,40 @@
+---
+const {img, title, description} = Astro.props;
+---
+
+<div class="card image-full w-80 shadow-xl" >
+    <figure>
+        <img src={img} alt={img}>
+    </figure>
+    <div class="card-body font-bold">
+        <h2 class="card-title text-2xl">{title}</h2>
+        <p class="text-m">{description}</p>
+        <div class="card-actions">
+            <button class="btn btn-ghost btn-sm font-bold">Learn More</button>
+        </div>
+    </div>
+</div>
+
+<style>
+.card.image-full:before {
+    background-color: #5e5252;
+    opacity: 0.7;
+}
+
+.card > .card-body {
+    color: #dfded9;
+}
+
+@media (hover: hover) {
+    .btn-ghost:hover {
+        border-color: transparent;
+    }
+    @supports (color: oklch(0% 0 0)) {
+        .btn-ghost:hover {
+            background-color: #97522c;
+        }
+    }
+}
+
+
+</style>
