@@ -1,16 +1,20 @@
 ---
-const {img, title, description} = Astro.props;
+const {img, title, description, class: className, button} = Astro.props;
 ---
 
-<div class="card image-full w-80 shadow-xl" >
+<div class:list={["card image-full shadow-xl", className]}>
+    {img && (
     <figure>
         <img src={img} alt={img}>
     </figure>
+    )}
     <div class="card-body font-bold">
         <h2 class="card-title text-2xl">{title}</h2>
         <p class="text-m">{description}</p>
         <div class="card-actions">
-            <button class="btn btn-ghost btn-sm font-bold">Learn More</button>
+            {button && (
+            <a href="/#" class="btn btn-ghost btn-sm font-bold">Learn More</a>
+            )}
         </div>
     </div>
 </div>
@@ -18,11 +22,11 @@ const {img, title, description} = Astro.props;
 <style>
 .card.image-full:before {
     background-color: #5e5252;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 .card > .card-body {
-    color: #dfded9;
+    color: #fff;
 }
 
 @media (hover: hover) {

@@ -30,7 +30,7 @@ export default function HamburgerMenu() {
 			</button>
 
 			<div
-				className={`fixed w-screen h-screen bg-white text-3xl top-0 left-0 flex flex-col justify-center items-center z-40
+				className={`fixed w-screen h-screen bg-[#fff] text-3xl top-0 left-0 flex flex-col justify-center items-center z-40
 					transition-opacity duration-500 ease-in-out
 					${isOpen ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'} `}
 				onClick={() => setIsOpen(!isOpen)}
