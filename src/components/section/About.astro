@@ -1,0 +1,65 @@
+---
+import InstructorCard from "../ui/IntructorCard.astro";
+---
+
+<section class="py-12" id="about">
+  <div class="container mx-auto px-6 items-center">
+    <h2 class="text-center text-4xl font-bold text-black mb-7">Who we are?</h2>
+    <div
+      class="flex flex-col sm:flex-row items-center justify-center text-black mb-7"
+    >
+      <img
+        src="https://images.pexels.com/photos/864990/pexels-photo-864990.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="about"
+        class="max-w-full sm:max-w-xl rounded-2xl shadow-2xl"
+      />
+      <div class="flex flex-col gap-8 p-6">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate
+          voluptates numquam tempore facilis quibusdam quisquam delectus. Quod
+          aspernatur laborum in amet repellat ducimus magni dolorum suscipit
+          cumque!
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate
+          voluptates numquam tempore facilis quibusdam quisquam delectus. Quod
+          aspernatur laborum in amet repellat ducimus magni dolorum suscipit
+          cumque! Voluptates at, tempore similique recusandae expedita pariatur
+          minima quaerat temporibus sint dolores, perspiciatis sed qui cum
+          aliquam culpa officiis excepturi aliquid est? Illum?
+        </p>
+        <a
+          href="#contact"
+          role="button"
+          class="btn max-w-40 bg-magenta text-white hover:bg-red"
+          >Get in touch</a
+        >
+      </div>
+    </div>
+    <h2 class="text-center text-2xl font-bold text-black mb-7">
+      Meet our instructors
+    </h2>
+    <div
+      class="grid lg:grid-cols-3 md:grid-cols-2 gap-8 max-md:justify-center mt-12"
+    >
+      <InstructorCard
+        img="https://images.pexels.com/photos/1638324/pexels-photo-1638324.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        name="Sophia Carter"
+        title="Strength & Conditioning Coach"
+        description="Sophia is a certified trainer specializing in strength-building and high-intensity workouts to help you achieve your fitness goals."
+      />
+      <InstructorCard
+        img="https://images.pexels.com/photos/2105493/pexels-photo-2105493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        name="Liam Brooks"
+        title="Functional Fitness Trainer"
+        description="Liam’s dynamic workouts combine cardio, strength, and agility to elevate your performance and endurance."
+      />
+      <InstructorCard
+        img="https://images.pexels.com/photos/863986/pexels-photo-863986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        name="Maya Reynolds"
+        title="Yoga & Flexibility Expert"
+        description="Maya brings a calming touch to fitness, focusing on flexibility, mindfulness, and balance through her transformative yoga sessions."
+      />
+    </div>
+  </div>
+</section>
