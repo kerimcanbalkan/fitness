@@ -13,7 +13,7 @@ export default {
 				'magenta': "#97522c",
 				'blue': "#426a79",
 				'yellow': "#eaa549",
-				'green': "#858162",
+				'green': "#689d6a",
 				'red': "#be100e",
 				'black': "#5e5252",
 			}
