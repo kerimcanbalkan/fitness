@@ -21,3 +21,11 @@ Here are some preview screenshots of the template:
    ![Gallery](./public/screenshots/gallery-section.png)
 7. Contact Section:
    ![Contact](./public/screenshots/contact-section.png)
+
+## Mobile Screenshots
+
+1.Mobile Home:
+![Mobile](./public/screenshots/mobile-home.png.png)
+
+2.Mobile Home:
+![Menu](./public/screenshots/mobile-menu.png)
