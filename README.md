@@ -24,8 +24,8 @@ Here are some preview screenshots of the template:
 
 ## Mobile Screenshots
 
-1.Mobile Home:
-![Mobile](./public/screenshots/mobile-home.png.png)
+1. Mobile Home:
+<img src="./public/screenshots/mobile-home.png" alt="Mobile Home" width="300">
 
-2.Mobile Home:
-![Menu](./public/screenshots/mobile-menu.png)
+2. Mobile Menu:
+<img src="./public/screenshots/mobile-menu.png" alt="Mobile Menu" width="300">
