@@ -5,27 +5,10 @@ Used used place holder images and random text for now.
 
 ## Screenshots
 
-Here are some preview screenshots of the template:
+Here are some screenshots of the website:
 
-1. Home Hero Section:
-   ![Hero](./public/screenshots/hero-section.png)
-2. Benefits Section:
-   ![Benefits](./public/screenshots/benefits-section.png)
-3. Services Section:
-   ![Services](./public/screenshots/services-section.png)
-4. About Section:
-   ![About](./public/screenshots/about-section.png)
-5. Instructors Section:
-   ![Instructors](./public/screenshots/about-instructors.png)
-6. Gallery Section:
-   ![Gallery](./public/screenshots/gallery-section.png)
-7. Contact Section:
-   ![Contact](./public/screenshots/contact-section.png)
+![Thumbnail of Screenshot](./public/screenshots/thumbnail.png)
+[See Full Website](./public/screenshots/fitness.png)
 
-## Mobile Screenshots
-
-1. Mobile Home:
-<img src="./public/screenshots/mobile-home.png" alt="Mobile Home" width="300">
-
-2. Mobile Menu:
-<img src="./public/screenshots/mobile-menu.png" alt="Mobile Menu" width="300">
+![Thumbnail of mobile](./public/screenshots/mobile-thumbnail.png)
+[See mobile version](./public/screenshots/mobile.png)
