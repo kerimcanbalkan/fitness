@@ -10,5 +10,5 @@ Here are some screenshots of the website:
 ![Thumbnail of Screenshot](./public/screenshots/thumbnail.png)
 [See Full Website](./public/screenshots/fitness.png)
 
-![Thumbnail of mobile](./public/screenshots/mobile-thumbnail.png)
+<img src="./public/screenshots/mobile-thumbnail.png" alt="Mobile Screenshot" width="300">
 [See mobile version](./public/screenshots/mobile.png)
