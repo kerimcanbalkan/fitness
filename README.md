@@ -11,4 +11,5 @@ Here are some screenshots of the website:
 [See Full Website](./public/screenshots/fitness.png)
 
 <img src="./public/screenshots/mobile-thumbnail.png" alt="Mobile Screenshot" width="300">
+
 [See mobile version](./public/screenshots/mobile.png)
