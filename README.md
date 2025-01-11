@@ -1,7 +1,7 @@
 # Gym/Pilates Business Template
 
 This is a template like one page website that I designed and coded. For small gym, pilates and similar businesses.
-Used used place holder images and random text for now.
+Used place holder images and random text for now.
 
 ## Screenshots
 
